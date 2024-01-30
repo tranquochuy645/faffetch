@@ -1,10 +1,12 @@
 # FAFFETCH
-![Real usage](./imgs/result.png?raw=true "Real usage")
 A shell greeter script written in C++. It's like neofetch, but super fast and useful.
 
-Information is picked up directly from proc files and ipinfo.io API requests.
+![Real usage](./imgs/result.png?raw=true "Real usage")
 
-The result of ipinfo.io API requests is wisely cached, so there is NO ANNOYING NETWORK DELAY every time you open up a new shell.
+
+- Information is picked up directly from proc files and ipinfo.io API requests.
+
+- The result of ipinfo.io API requests is wisely cached, so there is NO ANNOYING NETWORK DELAY every time you open up a new shell.
 
  Execution time:
  ![Performance](./imgs/time.png?raw=true "Performance")
