@@ -27,7 +27,7 @@ Basically, it runs the "get_net_info.cpp" main function every time there is a co
 For your convenience:
 
 ```
-git clone "repo"
+git clone https://github.com/tranquochuy645/faffetch
 cd faffetch
 sudo bash install.sh
 ```
