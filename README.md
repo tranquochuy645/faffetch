@@ -16,6 +16,9 @@ A shell greeter script written in C++. It's like neofetch, but super fast and us
 - Linux OS only!! 
 - Tested on Debian 12 (It's likely to work on every Linux distro that uses systemd)
 - lcurl and a C++ compiler
+  ```
+   sudo apt install libcurl4-openssl-dev 
+  ```
 - NetworkManager service  (Run "nmcli --version" to check)
 - sudo access on your machine
 ## Installation
