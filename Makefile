@@ -16,7 +16,7 @@ $(BIN_DIR)/get_net_info: $(BUILD_DIR)/get_net_info.o | $(BIN_DIR)
 	$(CXX) $^ -o $@ -lcurl
 
 $(BIN_DIR)/faffetch: $(BUILD_DIR)/main.o $(BUILD_DIR)/helpers.o | $(BIN_DIR)
-	$(CXX) $^ -o $@
+	$(CXX) $^ -pthread -o $@
 
 $(BUILD_DIR)/%.o: $(SRC_DIR)/%.cpp  | $(BUILD_DIR)
 	$(CXX) $(CXXFLAGS) -c $< -o $@
