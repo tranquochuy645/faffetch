@@ -1,5 +1,5 @@
 # FAFFETCH
-A shell greeter script written in C++. It's like neofetch, but super fast and useful.
+It's like neofetch, more useless, but fast
 
 ![Real usage](./imgs/result.png?raw=true "Real usage")
 
