@@ -54,6 +54,3 @@ It might be a pain to change anything except the ASCII logo since I didn't inten
 
 Hint: You can begin by modifying the hard-coded logo in "src/logo.hpp"; then take a look at "src/main.cpp" to go further.
 
-### Feel free to copy, edit, or use it as you like!
-
-### Any contributions are welcomed!
