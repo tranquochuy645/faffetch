@@ -37,7 +37,7 @@ static void getLocalIp()
             // Print the IP address of the active interface
             char ipAddr[INET_ADDRSTRLEN];
             inet_ntop(AF_INET, &((struct sockaddr_in *)ifa->ifa_addr)->sin_addr, ipAddr, INET_ADDRSTRLEN);
-            cout << ifa->ifa_name << "(local)," << ipAddr << endl;
+            cout << ifa->ifa_name << "(private)," << ipAddr << endl;
         }
     }
     // Free the memory allocated by getifaddrs
